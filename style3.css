@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;}
+	
+html {
+	background: #FCFCFF; 
+}
+
+body {
+	margin:0;
+	background: #FCFCFF; 
+}
+
+.wraper {
+	justify-content: space-around;
+    width: 100%;
+    min-width: 430px;
+    max-width: 1200px;
+	margin: 0 auto;
+	flex-grow: 1;
+}
+
+.nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: baseline;
+}
+
+.nav1 a{
+	font-size:  5rem;
+	font-family: Wire One;
+	text-decoration: none;
+	color: #3B4754;
+}
+	
+.nav2 a{
+	font-family: Raleway;
+	font-size:  1.4rem;
+	font-weight: lighter;
+	text-decoration: none;
+	color: #3B4754;
+}
+
+.logo {
+	height: 35px;
+    width: 35px;
+}
+
+h2 {
+	color: #3B4754;
+	font-family: Raleway;
+	text-align: center;
+	font-size:  2.2rem;
+	text-decoration: none;
+	font-weight: lighter;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.bluebg{
+	background: #D2DEED;
+	padding-top: 5px;
+	margin-top: 15px;
+	padding-bottom: 25px;
+	margin-bottom: 50px;
+}
+
+.wrapper {
+	display: grid;
+    grid-template-columns: 1fr 1fr; 
+	grid-template-rows: 1fr 1fr 1fr 0.2fr;
+}
+
+.pic {
+	height: 400px;
+    width: 400px;
+}
+
+.cardleft {
+	justify-self: end;
+	padding: 0px 50px 40px 0px;
+}
+
+.cardright {
+	padding: 0px 0px 40px 50px;
+}
+
+.down {
+	grid-column: 1 / 3;
+	justify-self: center;
+}
+
+.text {
+	margin: 0px auto;
+	font-family: Raleway;
+	font-size:  1.4rem;
+	font-weight: lighter;
+	text-decoration: none;
+	color: #3B4754;
+	padding: 5px 0px 0px 0px;
+	justify-self: start;
+}
+
+
+.but {
+	margin: 10px auto;
+	background: #D2DEED;
+	font-family: Raleway;
+	font-size:  1.1rem;
+	font-weight: lighter;
+	color: #3B4754;
+	border: 2px #D2DEED solid;
+	border-radius: 13px;
+	height: 45px;
+    width: 137px;
+}
+
+.but:hover {
+	margin: 10px auto;
+	background: #3B4754;
+	font-family: Raleway;
+	font-size:  1.1rem;
+	font-weight: lighter;
+	color: #D2DEED;
+	border: 2px #3B4754 solid;
+	border-radius: 13px;
+	height: 45px;
+    width: 137px;
+}
+
+
+
+footer {
+	text-align: center;
+	background: #FCFCFF;
+	height: 65px;
+	border-top: 2px #B0C4DE solid;
+}
+
+.footmain {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 160px 15px 160px;
+	width: 100%;
+    min-width: 430px;
+    max-width: 1200px;
+	margin: 0 auto;
+	font-size:  0.9rem;
+	font-family: Raleway;
+	font-weight: lighter;
+}
+
+.footlogo {
+	justify-content: space-between;
+	color: 3B4754;
+}
+
+.logo2 {
+	height: 30px;
+    width: 30px;
+}
